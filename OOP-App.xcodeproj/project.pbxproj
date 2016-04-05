@@ -12,6 +12,9 @@
 		85CA0A6E1CB410ED008E3513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CA0A6C1CB410ED008E3513 /* Main.storyboard */; };
 		85CA0A701CB410ED008E3513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CA0A6F1CB410ED008E3513 /* Assets.xcassets */; };
 		85CA0A731CB410ED008E3513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CA0A711CB410ED008E3513 /* LaunchScreen.storyboard */; };
+		85CA0A7B1CB41109008E3513 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA0A7A1CB41109008E3513 /* Character.swift */; };
+		85CA0A7D1CB4112D008E3513 /* Player1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA0A7C1CB4112D008E3513 /* Player1.swift */; };
+		85CA0A7F1CB41167008E3513 /* Player2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA0A7E1CB41167008E3513 /* Player2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		85CA0A6F1CB410ED008E3513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85CA0A721CB410ED008E3513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85CA0A741CB410ED008E3513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85CA0A7A1CB41109008E3513 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		85CA0A7C1CB4112D008E3513 /* Player1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player1.swift; sourceTree = "<group>"; };
+		85CA0A7E1CB41167008E3513 /* Player2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				85CA0A6F1CB410ED008E3513 /* Assets.xcassets */,
 				85CA0A711CB410ED008E3513 /* LaunchScreen.storyboard */,
 				85CA0A741CB410ED008E3513 /* Info.plist */,
+				85CA0A7A1CB41109008E3513 /* Character.swift */,
+				85CA0A7C1CB4112D008E3513 /* Player1.swift */,
+				85CA0A7E1CB41167008E3513 /* Player2.swift */,
 			);
 			path = "OOP-App";
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CA0A7B1CB41109008E3513 /* Character.swift in Sources */,
+				85CA0A7F1CB41167008E3513 /* Player2.swift in Sources */,
 				85CA0A6B1CB410ED008E3513 /* ViewController.swift in Sources */,
+				85CA0A7D1CB4112D008E3513 /* Player1.swift in Sources */,
 				85CA0A691CB410ED008E3513 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
